@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.form-container {
+  width: 90vw;
+  position: relative;
+  left: 3rem;
+}
+.formFormat {
+  margin-top: 2rem;
+  background-color: rgb(150, 152, 156);
+  margin-top: 2rem;
+}
+
+label {
+  display: flex;
+  font-family: fantasy;
+  font-size: larger;
+  margin-left: 10px;
+}
+input {
+  padding: 1rem 13rem 1rem 1rem;
+  margin: 8px 10px;
+}
+.ajust {
+  display: inline-block;
+}
+#age input {
+  padding: 1rem;
+}
+#birthd input {
+  padding: 1rem;
+}
+button {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 1rem;
+  background: rgb(103, 204, 229);
+}
